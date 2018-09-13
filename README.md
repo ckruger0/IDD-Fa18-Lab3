@@ -1,6 +1,6 @@
 # Data Logger (and using cool sensors!)
 
-*A lab report by John Q. Student.*
+*A lab report by Chris Kruger.*
 
 ## In The Report
 
@@ -10,13 +10,16 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 
 ## Part A.  Writing to the Serial Monitor
  
-**a. Based on the readings from the serial monitor, what is the range of the analog values being read?**
+**a. Based on the readings from the serial monitor, what is the range of the analog values being read?**<BR>
+0 - 1023
  
-**b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
+**b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**<BR>
+ 10 bits of resolution across the range of values 0 - 1023
 
 ## Part B. RGB LED
 
-**How might you use this with only the parts in your kit? Show us your solution.**
+**How might you use this with only the parts in your kit? Show us your solution.**<BR>
+I connected the R, G, and B pins of the LED to the 9 10 and 11 PWM pins on the arduino. I connected the common anode to the 5V rail.
 
 ## Part C. Voltage Varying Sensors 
  
