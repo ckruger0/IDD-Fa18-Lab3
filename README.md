@@ -31,7 +31,7 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**<BR>
  Voltage relative to force applied appears to have a logarithmic relationship. There is rapid rise at the beginning, however there is a clear ceiling where more force is applied linearly however it isn't represented that way in the serial plotter.
-
+<BR><img src="https://i.imgur.com/cfJY3jK.png">
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
