@@ -25,9 +25,12 @@ I connected the R, G, and B pins of the LED to the 9 10 and 11 PWM pins on the a
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
 
-**a. What voltage values do you see from your force sensor?**
+**a. What voltage values do you see from your force sensor?**<BR>
+0 - 4.94 V <BR>
+Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
 
-**b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+**b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**<BR>
+ Voltage relative to force applied appears to have a logarithmic relationship. There is rapid rise at the beginning, however there is a clear ceiling where more force is applied linearly however it isn't represented that way in the serial plotter.
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
