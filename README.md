@@ -67,7 +67,8 @@ When we execute the scripts related to EEPROM we only want to run them once inst
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**<BR>
  According to the Arduino reference, one solution to both would still allow you to read the information as usual (analogRead or creating an instance) and converting the read values using either **<a href="https://www.arduino.cc/reference/en/language/functions/bits-and-bytes/highbyte/">highByte()</a>** or **<a href="https://www.arduino.cc/reference/en/language/functions/bits-and-bytes/lowbyte/">lowByte()</a>**.
 
-**e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
+**e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**<BR>
+ It appears like you would use a custom data structure to hold the data you're trying to store, and then put the information in place by creating a large enough empty block on storage.
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
