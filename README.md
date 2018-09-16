@@ -92,9 +92,9 @@ void loop() {
 }
 ```
 
-### 2. Design your logger
+### 2. Design your logger<BR><BR>
  
-**a. Insert here a copy of your final state diagram.**
+I designed my data logger in an effort to help me better understand my how my plants are adapting to their new home at CT. I've had most of my plants for about 3 healthy years, however after moving to my new apartment I found one of my plants started yellowing. I was concerned this was due to the low light levels in my room relative to the living room. Time to check it out!
 
 ### 3. Create your data logger!<BR>
  
