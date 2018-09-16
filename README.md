@@ -47,6 +47,8 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
 
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**<BR>
  There is increased voltage the closer you are to the proximity sensor (aside from a small drop off when you get too close), and it drops off rapidly as you move away from the sensor. This is roughly in line with what I expected from the datasheet, however their chart has a more pronounced parabolic shape.
+ 
+<img src="https://i.imgur.com/gVVe1h0.png">
 
 **b. Upload your merged code to your lab report repository and link to it here.**<BR>
  
@@ -96,11 +98,14 @@ void loop() {
  
 I designed my data logger in an effort to help me better understand my how my plants are adapting to their new home at CT. I've had most of my plants for about 3 healthy years, however after moving to my new apartment I found one of my plants started yellowing. I was concerned this was due to the low light levels in my room relative to the living room. Time to check it out!
 
+<img src="https://i.imgur.com/wxSUKZM.jpg">Sad Plant
+
 ### 3. Create your data logger!<BR>
  
  Fortunately I had an external battery pack laying around and was able to get the rig setup without my laptop connection. It is currently sitting on my windowsill collecting light data at 15 min intervals and printing the average light level of the prior hour. First video is a rapid test just to make sure the functionality was working properly, picture underneath it is the data logger in its natural habitat.<BR><BR>
  
  <a href="https://youtu.be/sclBxsICPKM">Plant Light Meter in Action</a><BR>
  
- <img src=""><BR>
+ <img src="https://i.imgur.com/EAYhgAs.jpg"><BR>
+ 
  <a href="https://youtu.be/sclBxsICPKM">Plant Light Meter Code</a>
