@@ -96,6 +96,11 @@ void loop() {
  
 **a. Insert here a copy of your final state diagram.**
 
-### 3. Create your data logger!
+### 3. Create your data logger!<BR>
  
-**a. Record and upload a short demo video of your logger in action.**
+ Fortunately I had an external battery pack laying around and was able to get the rig setup without my laptop connection. It is currently sitting on my windowsill collecting light data at 15 min intervals and printing the average light level of the prior hour. First video is a rapid test just to make sure the functionality was working properly, picture underneath it is the data logger in its natural habitat.<BR><BR>
+ 
+ <a href="https://youtu.be/sclBxsICPKM">Plant Light Meter in Action</a><BR>
+ 
+ <img src=""><BR>
+ <a href="https://youtu.be/sclBxsICPKM">Plant Light Meter Code</a>
