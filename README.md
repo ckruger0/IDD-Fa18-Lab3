@@ -44,13 +44,11 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
 
 ### 3. IR Proximity Sensor
 
-**a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
+**a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**<BR>
+ There is increased voltage the closer you are to the proximity sensor (aside from a small drop off when you get too close), and it drops off rapidly as you move away from the sensor. This is roughly in line with what I expected from the datasheet, however their chart has a more pronounced parabolic shape.
 
 **b. Upload your merged code to your lab report repository and link to it here.**
 
-## Optional. Graphic Display
-
-**Take a picture of your screen working insert it here!**
 
 ## Part D. Logging values to the EEPROM and reading them back
  
