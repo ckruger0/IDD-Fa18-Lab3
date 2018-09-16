@@ -40,8 +40,8 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
 ### 2. Accelerometer
  
 <a href="https://github.com/ckruger0/IDD-Fa18-Lab3/blob/master/accel_lcd_print.ino">Accelerometer Read-Out Code</a>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SXBwk8vGHSM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<BR><BR>
+<a href="https://youtu.be/SXBwk8vGHSM">Accelerometer Video</a>
 
 ### 3. IR Proximity Sensor
 
