@@ -41,6 +41,8 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
  
 <a href="https://github.com/ckruger0/IDD-Fa18-Lab3/blob/master/accel_lcd_print.ino">Accelerometer Read-Out Code</a>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SXBwk8vGHSM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ### 3. IR Proximity Sensor
 
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**<BR>
