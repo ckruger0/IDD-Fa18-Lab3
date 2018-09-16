@@ -108,4 +108,4 @@ I designed my data logger in an effort to help me better understand my how my pl
  
  <img src="https://i.imgur.com/EAYhgAs.jpg"><BR>
  
- <a href="https://youtu.be/sclBxsICPKM">Plant Light Meter Code</a>
+ <a href="https://github.com/ckruger0/IDD-Fa18-Lab3/blob/master/plant_photo_sensor.ino">Plant Light Meter Code</a>
