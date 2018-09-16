@@ -55,13 +55,17 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
  
 ### 1. Reading and writing values to the Arduino EEPROM
 
-**a. Does it matter what actions are assigned to which state? Why?**
+**a. Does it matter what actions are assigned to which state? Why?**<BR>
+ Yes, because how each state interacts with each other is important. In order to have a proper write/read/erase loop, the ordering must be paid attention to, and it would be ideal to have discrete actions in different states. 
 
-**b. Why is the code here all in the setup() functions and not in the loop() functions?**
+**b. Why is the code here all in the setup() functions and not in the loop() functions?**<BR>
+When we execute the scripts related to EEPROM we only want to run them once instead of having the actions repeat over and over like we do for other labs. For example, if you wanted to write a string you likely only want it once and not over and over. Similarly if you want to flash an LED you wouldn't put that code in setup().
 
-**c. How many byte-sized data samples can you store on the Atmega328?**
+**c. How many byte-sized data samples can you store on the Atmega328?**<BR>
+ 1024/8 = 128 characters
 
-**d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
+**d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**<BR>
+ According to the Arduino reference, one solution to both would still allow you to read the information as usual (analogRead or creating an instance) and converting the read values using either **<a href="https://www.arduino.cc/reference/en/language/functions/bits-and-bytes/highbyte/">highByte()</a>** or **<a href="https://www.arduino.cc/reference/en/language/functions/bits-and-bytes/lowbyte/">lowByte()</a>**.
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
