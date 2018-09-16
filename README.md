@@ -40,15 +40,17 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
 
 ### 2. Accelerometer
  
-**a. Include your accelerometer read-out code in your write-up.**
+<a href="https://github.com/ckruger0/IDD-Fa18-Lab3/blob/master/accel_lcd_print.ino">Accelerometer Read-Out Code</a>
 
 ### 3. IR Proximity Sensor
 
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**<BR>
  There is increased voltage the closer you are to the proximity sensor (aside from a small drop off when you get too close), and it drops off rapidly as you move away from the sensor. This is roughly in line with what I expected from the datasheet, however their chart has a more pronounced parabolic shape.
 
-**b. Upload your merged code to your lab report repository and link to it here.**
-
+**b. Upload your merged code to your lab report repository and link to it here.**<BR>
+ 
+ Building upon the prior accelerometer read-out code, I added the capability to write proximity data to the serial monitor, while the original accelerometer data writes to LCD: 
+<a href = "https://github.com/ckruger0/IDD-Fa18-Lab3/blob/master/accel_vcnl_lcd.ino">Merged Code</a>
 
 ## Part D. Logging values to the EEPROM and reading them back
  
