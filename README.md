@@ -72,6 +72,24 @@ When we execute the scripts related to EEPROM we only want to run them once inst
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
+```
+int sensorPin = A0; \\ Attach sensor output to Analog Input Pin 0
+int sensorValue = 0;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  // read the value from the sensor:
+  sensorValue = analogRead(sensorPin);
+  // write to serial monitor
+  Serial.println(sensorValue);
+  
+  delay(100);
+}
+```
+
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
