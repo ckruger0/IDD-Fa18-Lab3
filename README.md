@@ -1,10 +1,8 @@
 # Data Logger (and using cool sensors!)
 
-*A lab report by Chris Kruger.*
+*A lab report by Chris Kruger - crk78*
 
 ## In The Report
-
-Include your responses to the bold questions on your own fork of [this lab report template](https://github.com/FAR-Lab/IDD-Fa18-Lab2). Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
 
 For this lab, we will be experimenting with a variety of sensors, sending the data to the Arduino serial monitor, writing data to the EEPROM of the Arduino, and then playing the data back.
 
@@ -26,12 +24,13 @@ I connected the R, G, and B pins of the LED to the 9 10 and 11 PWM pins on the a
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
 
 **a. What voltage values do you see from your force sensor?**<BR>
-0 - 4.94 V <BR>
+0 - 4.94 V (Basically 5V)<BR>
 Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**<BR>
  Voltage relative to force applied appears to have a logarithmic relationship. There is rapid rise at the beginning, however there is a clear ceiling where more force is applied linearly however it isn't represented that way in the serial plotter.
 <BR><img src="https://i.imgur.com/cfJY3jK.png">
+
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
