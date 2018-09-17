@@ -32,7 +32,11 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
 <BR><img src="https://i.imgur.com/cfJY3jK.png">
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**<BR>
- Yes, I used the 
+ Yes, I would map the output voltages to values that can be used on the LED:
+ 
+ ``` 
+ val = map(val, 0, 1023, 0, 255);
+ ```
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**<BR>
  Both 220 and 100 Ohm resistors seemed to provide reasonable voltage ranges from each sensor. Probably need to get to the K levels to start seeing a huge impact? 
