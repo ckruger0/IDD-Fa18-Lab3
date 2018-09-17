@@ -31,11 +31,14 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
  Voltage relative to force applied appears to have a logarithmic relationship. There is rapid rise at the beginning, however there is a clear ceiling where more force is applied linearly however it isn't represented that way in the serial plotter.
 <BR><img src="https://i.imgur.com/cfJY3jK.png">
 
-**c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
+**c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**<BR>
+ Yes, I used the 
 
-**d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
+**d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**<BR>
+ Both 220 and 100 Ohm resistors seemed to provide reasonable voltage ranges from each sensor. Probably need to get to the K levels to start seeing a huge impact? 
 
-**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**<BR>
+ Opposite of C1b - as voltage goes up resistance goes down, as the same logarithmic-type relationship.
 
 ### 2. Accelerometer
  
