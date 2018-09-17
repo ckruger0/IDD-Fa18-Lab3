@@ -32,7 +32,7 @@ Voltage values were calculated using **analogReadValue * (5.0 / 1023.0)**
 <BR><img src="https://i.imgur.com/cfJY3jK.png">
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**<BR>
- Yes, I would map the output voltages to values that can be used on the LED:
+ Yes, I mapped the output voltages to values that can be used on the LED:
  
  ``` 
  val = map(val, 0, 1023, 0, 255);
